@@ -1,0 +1,196 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: white;
+}
+
+body,div,p {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+html {
+	overflow: hidden;
+}
+
+body {
+	width: 100%;
+	*cursor: default;
+	overflow: hidden;
+	font: 16px/1.5 "Microsoft YaHei", Helvetica, STHeiti STXihei, Microsoft JhengHei, Arial;
+}
+
+#pageContain {
+	overflow: hidden;
+}
+
+.page {
+	display: none;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.contain {
+	width: 100%;
+	height: 100%;
+	display: none;
+	position: relative;
+	z-index: 0;
+}
+
+.current .contain,
+.slide .contain {
+	display: block;
+}
+
+.current {
+	display: block;
+	z-index: 1;
+}
+
+.slide {
+	display: block;
+	z-index: 2;
+}
+
+.swipe {
+	display: block;
+	z-index: 3;
+	transition-duration: 0ms !important;
+	-webkit-transition-duration: 0ms !important;
+}
+
+.page1 {
+	background: #84ada2;
+}
+
+.page2 {
+	background: #0f8c81;
+}
+
+.page3 {
+	background: #4d5e8e;
+}
+
+.page4 {
+	background: #90594a;
+}
+
+.page5 {
+	background: #49829c;
+}
+
+.page6 {
+	background: #a09770;
+}
+
+#navBar {
+	z-index: 3;
+	position: absolute;
+	top: 40%;
+	right: 3%;
+}
+
+#navBar .active {
+	background: #ccc;
+	color: black;
+}
+
+#navBar li {
+	cursor: pointer;
+	margin-top: 8px;
+	transition: all .7s ease;
+	border-radius: 50%;
+	line-height: 30px;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+}
+
+.txt {
+	margin-top: 20%;
+	font-size: 50px;
+	color: #fff;
+	text-align: center;
+}
+
+/*---------------------头部---------------------*/
+header#top {
+	width: 100%;
+	height: 80px;
+	margin: auto;
+	position: fixed;
+	z-index: 1000;
+	background: rgba(0, 0, 0, 0.3)
+}
+#personalPicBox {
+	width: auto;
+	height: 80px;
+	float: left;
+}
+/*头像*/
+#personalPic {
+	width: 70px;
+	height: 70px;
+	background-image: url(../img/personalPic.JPG);
+	border-radius: 50px;
+	margin-top: 5px;
+	margin-left: 30px;
+}
+/*头像右侧信息*/
+#rightPic {
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+#rightPic #archer {
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+}
+#rightPic #line {
+	height: 5px;
+	border-top: 1px solid white;
+	border-bottom: none;
+}
+#rightPic #info {
+	height: 35px;
+	text-align: center;
+}
+/*头部右侧导航栏*/
+#navBar_top {
+	width: auto;
+	height: 80px;
+	float: right;
+	margin-right: 40px;
+	line-height: 80px;
+}
+#navBar_top li {
+	float: left;
+	margin-left: 20px;
+}
+#navBar_top li:hover {
+	cursor: pointer;
+	color: deepskyblue;
+}
+#navBar_top li a{
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+}
+#navBar_top li a:hover{
+	color: white;
+	color: deepskyblue;
+}

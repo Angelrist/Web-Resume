@@ -1,0 +1,519 @@
+/*------------------Page1----------------*/
+#homePage{
+	position: relative;
+	top: 250px;
+}
+#homePage_headPicBox {
+	width: 150px;
+	height: 150px;
+	margin: auto;
+}
+#homePage_headPic {
+	width: 150px;
+	height: 150px;
+	margin: auto;
+	border-radius: 100px;
+	background-image: url(../img/智能证件照.jpg);
+	background-repeat: no-repeat;
+	background-size: 150px;
+}
+#homePage_lifeMotto {
+	width: 1000px;
+	height: 50px;
+	margin: auto;
+	margin-top: 25px;
+	line-height: 50px;
+	text-align: center;
+}
+#homePage_lifeMotto span {
+	font-size: 22px;
+}
+#homePage_splitLine {
+	width: 1000px;
+	height: 0px;
+	border-bottom: 2px solid #cccccc;
+	margin: auto;
+	margin-top: 5px;
+}
+#homePage_introduction {
+	width: 800px;
+	height: auto;
+	/*border: 1px solid blue;*/
+	margin: auto;
+	margin-top: 15px;
+	text-align: center;
+}
+#homePage_introduction p {
+	margin-bottom: 20px;
+}
+/*------------------Page2----------------*/
+#about_Box{
+	width: 800px;
+	height: 800px;
+	margin: auto;
+	position: relative;
+	top: 200px;
+}
+#about_title{
+	margin: auto;
+	width: 200px;
+	height: 100px;
+}
+#about_ch{
+	font-size: 28px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+#about_underline{
+	width: 150px;
+	height: 1px;
+	border-top: 2px solid gainsboro;
+	border-bottom: none;
+	margin: auto;
+	margin-top: 10px;
+}
+#about_en{
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 10px;
+}
+/*-----------------*/
+#about_info{
+	width: 800px;
+	height: 200px;
+	background: #0a625a;
+	margin: auto;
+	margin-top: 10px;
+}
+.about_info_n{
+	width: 198px;
+	height: 199px;
+	float: left;
+}
+.about_info_n_pic{
+	width: 80px;
+	height: 80px;
+	border: 4px solid white;
+	border-radius: 50px;
+	margin: auto;
+	margin-top: 35px;
+}
+.about_info_n_pic img{
+	width: 45px;
+	height: 45px;
+	position: relative;
+	left: 14px;
+	top: 13px;
+	margin: auto;
+}
+.about_info_n_text{
+	text-align: center;
+	margin-top: 10px;
+}
+.about_info_n_text_big{
+	font-size: 20px;
+}
+.about_info_n_text_small{
+	font-size: 14px;
+}
+#about_introduction{
+	width: 800px;
+	height: auto;
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 40px;
+}
+#about_introduction p{
+	margin-top: 20px;
+}
+#about_introduction_border_1{
+	width: 60px;
+	height: 60px;
+	border: 2px solid white;
+	border-bottom: none;
+	border-right: none;
+	float: left;
+	position: relative;
+	top: -5px;
+}
+#about_introduction_border_2{
+	width: 60px;
+	height: 60px;
+	border: 2px solid white;
+	border-top: none;
+	border-left: none;
+	float: right;
+	position: relative;
+	top: -45px;
+}
+/*------------------Page3----------------*/
+#skill_Box{
+	width: auto
+	height: auto
+	margin: auto;
+	position: relative;
+	top: 200px;
+}
+#skill_title{
+	margin: auto;
+	width: 200px;
+	height: 100px;
+}
+#skill_ch{
+	font-size: 28px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+#skill_underline{
+	width: 150px;
+	height: 1px;
+	border-top: 2px solid gainsboro;
+	border-bottom: none;
+	margin: auto;
+	margin-top: 10px;
+}
+#skill_en{
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 10px;
+}
+/*-----------------*/
+#skill_info{
+	width: 1200px;
+	height: 500px;
+	margin: auto;
+}
+#skill_info_text{
+	width: 1200px;
+	height: 100px;
+	margin: auto;
+	text-align: center;
+}
+#skill_info_text p{
+	font-size: 18px;
+	margin-top: 10px;
+}
+#skill_info_box{
+	width: 1200px;
+	height: 400px;
+	margin: auto;
+	margin-top: 20px;
+}
+.skill_info_box_n{
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin-left: 115px;
+}
+.skill_info_pic{
+	width: 150px;
+	height: 150px;
+	margin: auto;
+}
+.skill_info_pic img{
+	width: 150px;
+	transition: all 0.5s;
+}
+.skill_info_pic img:hover{
+	transform: scale(1.2);
+	cursor: pointer;
+}
+.skill_info_name{
+	text-align: center;
+	margin-top: 10px;
+}
+.under_icon{
+	font-size: 25px;
+	margin-top: 10px;
+}
+#vue_icon{
+	margin-top: 10px;
+}
+#html_icon{
+	width: 150px;
+	padding: 25px;
+}
+.skill_info_introduction{
+	width: 320px;
+	height: 120px;
+	position: relative;
+	left: -85px;
+	top: 20px;
+	background: #364263;
+	border-radius: 10px;
+	display: none;
+}
+.skill_info_introduction ul{
+	width: 310px;
+	height: 110px;
+	padding-top: 10px;
+}
+.skill_info_introduction ul li{
+	font-size: 14px;
+	margin-top: 3px;
+	margin-left: 50px;
+}
+/*------------------Page4----------------*/
+#exp_Box{
+	width: auto
+	height: auto
+	margin: auto;
+	position: relative;
+	top: 200px;
+}
+#exp_title{
+	margin: auto;
+	width: 200px;
+	height: 100px;
+}
+#exp_ch{
+	font-size: 28px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+#exp_underline{
+	width: 150px;
+	height: 1px;
+	border-top: 2px solid gainsboro;
+	border-bottom: none;
+	margin: auto;
+	margin-top: 10px;
+}
+#exp_en{
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 10px;
+}
+/*---------------------*/
+#exp_text{
+	width: 500px;
+	height: 30px;
+	text-align: center;
+	margin: auto;
+}
+/*-----------轮播图----------*/
+#myCarousel{
+	width: 1000px;
+	margin: auto;
+	margin-top: 20px;
+}
+/*轮播项目*/
+div.carousel-item{
+	width: 1000px;
+	height: 300px;
+	margin: auto;
+	background: #653e34;
+	background-image: url(../img/exp_info_bg.png);
+}
+div.exp_info_text{
+	width: auto;
+	height: 250px;
+	margin-top: 25px;
+	margin-left: 80px;
+	float: left;
+}
+p.exp_info_cname{
+	font-size: 22px;
+}
+p.exp_info_time{
+	font-size: 10px;
+}
+div.exp_info_text ul li{
+	margin-top: 10px;
+	font-size: 16px;
+}
+#exp_info_pic_meizu{
+	width: 300px;
+	margin-top: 110px;
+	margin-left: 190px;
+}
+#exp_info_pic_web{
+	width: 250px;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+#exp_info_pic_neusoft{
+	width: 300px;
+	margin-top: 90px;
+	margin-left: 70px;
+}
+/*轮播导航*/
+img.carousel_button{
+	opacity: 0.5;
+}
+img.carousel_button:hover{
+	opacity: 1;
+	transform: scale(1.1);
+}
+img#button_left{
+	position: relative;
+	left: -120px;
+	width: 50px;
+}
+img#button_right{
+	position: relative;
+	right: -120px;
+	width: 50px;
+}
+/*轮播指标*/
+div#carousel-indicators{
+	position: relative;
+	top: 80px;
+}
+div#carousel-indicators li{
+	border-radius: 50px;
+}
+/*------------------Page5----------------*/
+#productions_Box{
+	width: auto
+	height: auto
+	margin: auto;
+	position: relative;
+	top: 200px;
+}
+#productions_title{
+	margin: auto;
+	width: 200px;
+	height: 100px;
+}
+#productions_ch{
+	font-size: 28px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+#productions_underline{
+	width: 150px;
+	height: 1px;
+	border-top: 2px solid gainsboro;
+	border-bottom: none;
+	margin: auto;
+	margin-top: 10px;
+}
+#productions_en{
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 10px;
+}
+/*--------------*/
+#productions_main{
+	margin: auto;
+	margin-top: 80px;
+	width: 1000px;
+	background: #335b6d;
+	text-align: center;
+}
+.productions_n{
+	display: inline-block;
+	margin: 50px;
+	width: 200px;
+	height: 250px;
+}
+.productions_pic{
+	transition: all 0.5s; 
+}
+.productions_pic:hover{
+	cursor: pointer;
+	transform: scale(1.2);
+}
+.productions_n p{
+	margin-top: 35px;
+}
+/*------------------Page6----------------*/
+#contact_Box{
+	width: auto
+	height: auto
+	margin: auto;
+	position: relative;
+	top: 200px;
+}
+#contact_title{
+	margin: auto;
+	width: 200px;
+	height: 100px;
+}
+#contact_ch{
+	font-size: 28px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+#contact_underline{
+	width: 150px;
+	height: 1px;
+	border-top: 2px solid gainsboro;
+	border-bottom: none;
+	margin: auto;
+	margin-top: 10px;
+}
+#contact_en{
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 10px;
+}
+/*-------------*/
+.contact_info_words{
+	text-align: center;
+}
+.contact_info_words_title{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	transition: all 0.3s;
+}
+.contact_info_words_title:hover{
+	transform: scale(1.5);
+}
+.contact_info_words_title span{
+	font-weight: bold;
+	font-size: 30px;
+	margin: 5px;
+}
+.span_1{
+	color: #ff6633;
+}
+.span_2{
+	color: #6ad9fd;
+}
+.span_3{
+	color: #79d221;
+}
+.contact_info_words_text{
+	text-align: center;
+}
+.contact_info_words_text p{
+	margin: auto;
+	margin-top: 10px;
+	width: auto;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	transition: all 0.3s;
+}
+.contact_info_words_text p:hover{
+	transform: scale(1.2);
+	background: #70694e;
+}
+.contact_info_ways{
+	margin-top: 40px;
+	text-align: center;
+}
+.contact_info_ways a:hover{
+	color: #fff;
+}
+.contact_info_ways_github img{
+	width: 30px;
+	margin-right: 10px;
+}
+.contact_info_ways_email{
+	margin-top: 10px;
+}
+.contact_info_ways_email img{
+	width: 32px;
+	margin-right: 10px;
+}
+.contact_info_ways_email a{
+	margin-right: 2px;
+}
